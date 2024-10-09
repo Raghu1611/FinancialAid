@@ -1,0 +1,70 @@
+/* Signup.css */
+
+/* Container for the signup form */
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Form styling */
+.signup-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input fields */
+.form-input {
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Input focus */
+.form-input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 8px rgba(37, 117, 252, 0.2);
+  outline: none;
+}
+
+/* Signup Button */
+.signup-btn {
+  background-color: #2575fc;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.signup-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Login link styling */
+.login-link {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for login link */
+.login-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
